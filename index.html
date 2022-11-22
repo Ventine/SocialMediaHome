@@ -19,7 +19,7 @@
 				<div class="create">
 					<label class="btn btn-primary" for="create-post">Crear</label>
 					<div class="profile-picture">
-						<img src="assets/man-exploring-globe.webp">
+						<img src="assets/man-exploring-globe.webp" class="CP">
 					</div>
 				</div>
 			</div>
@@ -39,13 +39,13 @@
 					</a>
 					<div class="slidebar">
 						<a href="#" class="menu-item active">
-							<span><span class="material-symbols-outlined">cottage</span></span><h3>Inicio</h3>
+							<span><span class="material-symbols-outlined spn">cottage</span></span><h3>Inicio</h3>
 						</a>
 						<a href="#" class="menu-item">
-							<span><span class="material-symbols-outlined">explore</span></span><h3>Explorar</h3>
+							<span><span class="material-symbols-outlined spn">explore</span></span><h3>Explorar</h3>
 						</a>
 						<a href="#" class="menu-item" id="notifications">
-							<span><span class="material-symbols-outlined">notifications_active</span> <small class="notifications-count">9+</small> </span><h3>Notificaciones</h3>
+							<span><span class="material-symbols-outlined spn">notifications_active</span> <small class="notifications-count">9+</small> </span><h3>Notificaciones</h3>
 							<div class="notifications-popup">
 								<div>
 									<div class="profile-picture">
@@ -104,16 +104,19 @@
 							</div>
 						</a>
 						<a href="#" class="menu-item"  id="messages-notifications">
-							<span><span class="material-symbols-outlined">sms</span> <small class="notifications-count">6</small> </span><h3>Mensajes</h3>
+							<span><span class="material-symbols-outlined spn">sms</span> <small class="notifications-count">6</small> </span><h3>Mensajes</h3>
 						</a>
 						<a href="#" class="menu-item">
-							<span><span class="material-symbols-outlined">description</span></span><h3>Documentos</h3>
+							<span><span class="material-symbols-outlined spn">description</span></span><h3>Documentos</h3>
 						</a>
 						<a href="#" class="menu-item">
-							<span><span class="material-symbols-outlined">barcode_scanner</span></span><h3>Precios</h3>
+							<span><span class="material-symbols-outlined spn">barcode_scanner</span></span><h3>Precios</h3>
 						</a>
+						<a href="#" class="menu-item" id="theme">
+							<span><span class="material-symbols-outlined spn" >preview</span></span><h3>Tema</h3>
+						</a>						
 						<a href="#" class="menu-item">
-							<span><span class="material-symbols-outlined">manage_accounts </span></span><h3>Ajustes</h3>
+							<span><span class="material-symbols-outlined spn">manage_accounts</span></span><h3>Ajustes</h3>
 						</a>
 					</div>
 					<label for="create-post" class="btn btn-primary">Crear Post</label>
@@ -166,8 +169,8 @@
 										<img src="assets/img-mujer.webp">
 									</div>
 									<div class="ingo">
-										<h3>Maria Rodriguez</h3>
-										<small>Bogota, Hace 30 minutos</small>
+										<h3 class="CP">Maria Rodriguez</h3>
+										<small class="CP">Bogota, Hace 30 minutos</small>
 									</div>
 								</div>
 								<span class="edit"><span class="material-symbols-outlined">more_vert</span></span>
@@ -189,12 +192,12 @@
 								<span class="span-img"><img src="assets/img-mujer.webp"></span>
 								<span class="span-img"><img src="assets/img-hombre.webp"></span>
 								<span class="span-img"><img src="assets/man-exploring-globe.webp"></span>
-								<p>Liked by <b>Jhon Torres</b> and <b>32 personas más</b> </p>
+								<p>Liked by <b class="CP">Jhon Torres</b> and <b class="CP">32 personas más</b> </p>
 							</div>
 							<div class="caption">
-								<p><b>Maria Rodriguez</b> La vida es solo una. <span class="harsh-tag">#Life</span> </p>
+								<p><b class="CP">Maria Rodriguez</b> La vida es solo una. <span class="harsh-tag">#Life</span> </p>
 							</div>
-							<div class="comments text-muted">
+							<div class="comments text-muted CP">
 								Ver 250 comentarios.
 							</div>
 						</div>
@@ -205,8 +208,8 @@
 										<img src="assets/img-mujer.webp">
 									</div>
 									<div class="ingo">
-										<h3>Santiago Montañez</h3>
-										<small>Bogota, Hace 45 minutos</small>
+										<h3 class="CP">Santiago Montañez</h3>
+										<small class="CP">Bogota, Hace 45 minutos</small>
 									</div>
 								</div>
 								<span class="edit"><span class="material-symbols-outlined">more_vert</span></span>
@@ -228,12 +231,12 @@
 								<span class="span-img"><img src="assets/img-hombre.webp"></span>
 								<span class="span-img"><img src="assets/img-hombre.webp"></span>
 								<span class="span-img"><img src="assets/man-exploring-globe.webp"></span>
-								<p>Liked by <b>Jhon Torres</b> and <b>3 personas más</b> </p>
+								<p>Liked by <b class="CP">Jhon Torres</b> and <b class="CP">3 personas más</b> </p>
 							</div>
 							<div class="caption">
-								<p><b>Santiago Montañez</b> Lo importante es vivir. <span class="harsh-tag">#Life</span> </p>
+								<p><b class="CP">Santiago Montañez</b> Lo importante es vivir. <span class="harsh-tag">#Life</span> </p>
 							</div>
-							<div class="comments text-muted">
+							<div class="comments text-muted CP">
 								Ver 50 comentarios.
 							</div>
 						</div>
@@ -249,23 +252,153 @@
 							<input type="search" name="search" id="message-search">
 						</div>
 						<div class="category">
-							<h6 class="active">Primero</h6>
-							<h6>General</h6>
-							<h6 class="message-request">Pendiente(6)</h6>							
+							<h6 class="active CP">Favoritos</h6>
+							<h6 class="CP">Amigos</h6>
+							<h6 class="message-request CP">Solicitudes(6)</h6>
 						</div>
-						<div class="message">
+						<div class="messag">
 							<div class="profile-picture">
-								<img src="">
+								<img src="assets/img-mujer.webp">
 							</div>
 							<div class="message-body">
-								<h5>Busqueda graciosa</h5>
+								<h5>Maria Rodriguez</h5>
 								<p class="text-muted">Acabo de despertar!</p>
 							</div>
 						</div>
+						<div class="messag">
+							<div class="profile-picture">
+								<img src="assets/img-mujer.webp">
+								<div class="active"></div>
+							</div>
+							<div class="message-body">
+								<h5>Ingrid Vargas</h5>
+								<p>Hola!!!</p>
+							</div>
+						</div>
+						<div class="messag">
+							<div class="profile-picture">
+								<img src="assets/img-hombre.webp">
+							</div>
+							<div class="message-body">
+								<h5>Santiago Camacho</h5>
+								<p class="text-muted">¿Vamos a desayunar?</p>
+							</div>
+						</div>
+						<div class="messag">
+							<div class="profile-picture">
+								<img src="assets/img-mujer.webp">
+							</div>
+							<div class="message-body">
+								<h5>Tatiana Vega</h5>
+								<p>Hora de break.</p>
+							</div>
+						</div>
+						<div class="messag">
+							<div class="profile-picture">
+								<img src="assets/img-hombre.webp">
+								<div class="active"></div>
+							</div>
+							<div class="message-body">
+								<h5>Julian Galvis</h5>
+								<p class="text-muted">Programamos?</p>
+							</div>
+						</div>
 					</div>
-					
+					<div class="friend-request">
+						<h4>Request</h4>
+						<div class="request">
+							<div class="info">
+								<div class="profile-picture">
+									<img src="assets/img-mujer.webp">
+								</div>
+								<div class="message-body-request">
+									<h5>Caro Bernal</h5>
+									<p class="text-muted">
+										8 amigos en común.
+									</p>
+								</div>
+							</div>
+							<div class="action">
+								<button class="btn btn-primary">
+								Aceptar
+								</button>
+								<button class="btn">
+								Ignorar
+								</button>
+							</div>
+						</div>
+						<div class="request">
+							<div class="info">
+								<div class="profile-picture">
+									<img src="assets/img-hombre.webp">
+								</div>
+								<div class="message-body-request">
+									<h5>Leo Castaño</h5>
+									<p class="text-muted">
+										1 amigos en común.
+									</p>
+								</div>
+							</div>
+							<div class="action">
+								<button class="btn btn-primary">
+								Aceptar
+								</button>
+								<button class="btn">
+								Ignorar
+								</button>
+							</div>
+						</div>						
+					</div>
 				</div>
 			</div>
 		</main>
+		<div class="customize-theme">
+			<div class="card">
+				<h2>Personaliza tu pagina</h2>
+				<p class="text-muted">Maneja el tamaño de tu fuente y colores de la pagina.</p>
+				<div class="font-size">
+					<h4>Tamaño de fuente</h4>
+					<div>
+						<h6>Aa</h6>
+						<div class="choose-size">
+							<span class="font-size-1 active CP"></span>
+							<span class="font-size-2 CP"></span>
+							<span class="font-size-3 CP"></span>
+							<span class="font-size-4 CP"></span>
+							<span class="font-size-5 CP"></span>
+						</div>
+						<h3>Aa</h3>
+					</div>
+				</div>
+				<div class="color">
+					<h4>Color</h4>
+					<div class="choose-color">
+						<span class="color-1 active CP"></span>
+						<span class="color-2 CP"></span>
+						<span class="color-3 CP"></span>
+						<span class="color-4 CP"></span>
+						<span class="color-5 CP"></span>
+					</div>
+				</div>
+				<div class="background">
+					<h4>Color de pagina</h4>
+					<div class="choose-bg">
+						<div class="bg-1 active">
+							<span></span>
+							<h5 for="bg-1">Claro</h5>
+						</div>
+						<div class="bg-2">
+							<span></span>
+							<h5 >Intermedio</h5>
+						</div>	
+						<div class="bg-3">
+							<span></span>
+							<h5 for="bg-3">Oscuro</h5>
+						</div>											
+					</div>
+				</div>
+			</div>
+		</div>
 	</body>
+	<script type="text/javascript" src="js/main.js"></script>
 </html>
